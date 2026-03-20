@@ -1,0 +1,293 @@
+﻿
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>La Digue Formulations - Pharmaceutical Innovation</title>
+		<script src="https://cdn.tailwindcss.com"></script>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="assets/css/style.css"
+		/>
+	</head>
+	<body>
+		<!-- Navbar -->
+	
+  <header class="header">
+    <nav class="nav-container px-12">
+      <div class="nav-left">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About Us</a>
+		<a href="products.html" class="nav-link">Products</a>
+      </div>
+      <a href="index.html" class="logo-link">
+        <img src="assets/images/Ladiguelogo.png" alt="Praslin Lifesciences" class="logo p-4">
+      </a>
+      <div class="nav-right">
+        <button class="icon-btn" aria-label="Search">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+        </button>
+        <button class="icon-btn" aria-label="Cart">
+            <a href="coming.html"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="8" cy="21" r="1"/><circle cx="19" cy="21" r="1"/><path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"/></svg></a>
+        </button>
+      </div>
+      <button class="mobile-menu-btn" aria-label="Menu" onclick="toggleMenu()">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+      </button>
+    </nav>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="about.html" class="nav-link">About Us</a>
+	  <a href="products.html" class="nav-link">Product</a>
+    </div>
+  </header>
+
+<!-- HERO / ABOUT -->
+<section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-16 py-12 sm:py-16 lg:py-20">
+
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-10 lg:gap-16 items-center">
+
+    <!-- LEFT CONTENT -->
+    <div class="max-w-xl">
+
+      <h2 class="text-2xl sm:text-3xl lg:text-5xl font-bold mb-4 text-gray-900 leading-tight">
+        About <span class="gradient-text">La Digue</span>
+      </h2>
+
+      <p class="text-gray-600 text-sm sm:text-base lg:text-lg mb-4 leading-relaxed">
+        At La Digue, we believe that true beauty starts from within.
+        Our mission is to provide scientifically advanced nutritional supplements.
+      </p>
+
+      <p class="text-gray-600 text-sm sm:text-base lg:text-lg mb-6 leading-relaxed">
+        Founded on the principles of scientific excellence and quality commitment, 
+        we have grown into a trusted name in beauty and wellness. Our team of 
+        scientists, dermatologists, and researchers develops formulations that 
+        deliver visible and lasting results.
+      </p>
+
+      <!-- BUTTON -->
+      <div class="flex justify-start sm:justify-start">
+        <a href="products.html"
+          class="inline-block bg-gradient-to-r from-blue-500 to-green-500 text-white px-5 sm:px-6 py-2.5 sm:py-3 rounded-lg shadow-md hover:shadow-lg hover:scale-105 transition">
+          Explore Our Products
+        </a>
+      </div>
+
+    </div>
+
+    <!-- RIGHT IMAGE -->
+    <div class="flex justify-center md:justify-end">
+
+      <img 
+        src="assets/images/ladigueintropoc.png" 
+        alt="La Digue Products"
+        class="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg rounded-2xl shadow-lg object-cover"
+      >
+
+    </div>
+
+  </div>
+
+</section>
+<!-- STORY SECTION -->
+<section class="bg-[#eef1f6] py-12 sm:py-16 lg:py-20">
+
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-16 grid grid-cols-1 md:grid-cols-2 gap-10 lg:gap-16 items-center">
+
+    <!-- CERTIFICATES -->
+  <div class="grid grid-cols-2 sm:grid-cols-3 gap-4 sm:gap-6 justify-items-center">
+
+  <img 
+    src="assets/images/GLP-MK-Healthcare/GLP MK Healthcare_page-0001.jpg"
+    class="w-28 sm:w-36 md:w-40 lg:w-44 rounded-xl shadow-md pop-img cursor-pointer"
+    alt="GLP Certificate"
+  >
+
+  <img 
+    src="assets/images/ISO-CERTIFICATE/ISO CERTIFICATE_page-0001.jpg"
+    class="w-32 sm:w-40 md:w-48 lg:w-52 rounded-xl shadow-xl pop-img cursor-pointer"
+    alt="ISO Certificate"
+  >
+
+  <img 
+    src="assets/images/MK-HEALTHCARE-WHO-GMP/MK HEALTHCARE WHO GMP_page-0001.jpg"
+    class="w-28 sm:w-36 md:w-40 lg:w-44 rounded-xl shadow-md pop-img cursor-pointer"
+    alt="WHO GMP Certificate"
+  >
+
+</div>
+    <!-- TEXT -->
+    <div class="space-y-5 text-center md:text-left max-w-xl">
+
+      <h3 class="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight">
+        Our <span class="gradient-text">Story</span>
+      </h3>
+
+      <p class="text-gray-600 text-sm sm:text-base lg:text-lg leading-relaxed">
+        La Digue was founded with a simple yet powerful vision:
+        to create beauty supplements that actually work. We identified a gap
+        in the market for science-backed products instead of empty promises.
+      </p>
+
+      <p class="text-gray-600 text-sm sm:text-base lg:text-lg leading-relaxed">
+        Our team of scientists and healthcare professionals develops
+        formulations using advanced research and premium-quality ingredients.
+      </p>
+
+      <p class="text-gray-600 text-sm sm:text-base lg:text-lg leading-relaxed">
+        Today, we proudly help people achieve healthier skin, hair, and nails,
+        maintaining excellence and trust worldwide.
+      </p>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- CTA -->
+<section class="bg-gradient-to-r from-blue-600 to-green-500 text-white py-16 text-center">
+
+  <h2 class="text-2xl md:text-3xl font-bold mb-3">
+    Ready to Start Your Beauty Journey?
+  </h2>
+
+  <p class="mb-6 text-sm">
+    Join millions of satisfied customers who trust our supplements.
+  </p>
+
+  <button class="bg-white text-black px-6 py-2 rounded-lg font-medium hover:scale-105 transition">
+    Shop Now
+  </button>
+
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-gray-900 text-gray-300 pt-12 sm:pt-14 pb-8">
+
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-16">
+
+    <!-- GRID -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-12">
+
+      <!-- BRAND -->
+      <div>
+        <img src="assets/images/Ladiguelogo.png" 
+             class="h-16 sm:h-20 mb-4 rounded-lg" 
+             alt="La Digue Logo">
+
+        <p class="text-sm sm:text-base leading-relaxed text-gray-400 max-w-sm">
+          La Digue is committed to delivering scientifically formulated
+          supplements designed for modern healthcare and wellness needs.
+        </p>
+      </div>
+
+      <!-- COMPANY -->
+      <div>
+        <h4 class="font-semibold mb-4 text-white text-base sm:text-lg">
+          Company
+        </h4>
+
+        <ul class="space-y-2 text-sm sm:text-base">
+          <li>
+            <a href="about.html" class="hover:text-white transition">
+              About Us
+            </a>
+          </li>
+          <li>
+            <a href="services.html" class="hover:text-white transition">
+              Our Services
+            </a>
+          </li>
+          <li>
+            <a href="products.html" class="hover:text-white transition">
+              Products
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- CONTACT -->
+      <div>
+        <h4 class="font-semibold mb-4 text-white text-base sm:text-lg">
+          Contact
+        </h4>
+
+        <ul class="space-y-3 text-sm sm:text-base text-gray-400 leading-relaxed">
+
+          <li class="font-medium text-gray-300">
+            La Digue Formulations
+          </li>
+
+          <li>
+            <span class="text-gray-500">Email:</span> 
+            <a href="mailto:info@ladigue.in" class="hover:text-white transition">
+              info@ladigue.in
+            </a>
+          </li>
+
+          <li class="break-words">
+            33, 1st Floor, 1st Main, Ganga Nagar, Gramatana, HMT Layout, 
+            CBI Main Rd, Bengaluru, Karnataka 560032
+          </li>
+
+        </ul>
+      </div>
+
+    </div>
+
+    <!-- DIVIDER -->
+    <div class="border-t border-gray-700 mt-10 pt-6 text-center text-xs sm:text-sm text-gray-500">
+      © 2026 La Digue Lifesciences. All rights reserved.
+    </div>
+
+  </div>
+
+</footer>
+<script src="assets/js/script.js"></script>
+<script>
+  function toggleMenu() {
+    const menu = document.getElementById("mobileMenu");
+    menu.classList.toggle("active");
+  }
+
+    
+    
+</script>
+<script>
+  document.querySelectorAll('.pop-img').forEach(img => {
+    img.addEventListener('click', () => {
+
+      const popup = document.createElement('div');
+      popup.className = 'certificate-popup';
+
+      const popupImg = document.createElement('img');
+      popupImg.src = img.src;
+
+      popup.appendChild(popupImg);
+      document.body.appendChild(popup);
+
+      // Prevent image click from closing
+      popupImg.addEventListener('click', (e) => {
+        e.stopPropagation();
+      });
+
+      // Click outside → close
+      popup.addEventListener('click', () => {
+        popup.remove();
+      });
+
+    });
+  });
+</script>
+</body>
+</html>

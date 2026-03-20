@@ -1,0 +1,364 @@
+﻿
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>La Digue Formulations - Pharmaceutical Innovation</title>
+		<script src="https://cdn.tailwindcss.com"></script>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="assets/css/style.css"
+		/>
+	</head>
+	<body>
+		<!-- Navbar -->
+	  <!-- Header -->
+  <header class="header">
+    <nav class="nav-container px-12">
+      <div class="nav-left">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About Us</a>
+		<a href="products.html" class="nav-link">Products</a>
+      </div>
+      <a href="index.html" class="logo-link">
+        <img src="assets/images/Ladiguelogo.png" alt="Praslin Lifesciences" class="logo p-4">
+      </a>
+      <div class="nav-right">
+        <button class="icon-btn" aria-label="Search">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+        </button>
+        <button class="icon-btn" aria-label="Cart">
+            <a href="coming.html"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="8" cy="21" r="1"/><circle cx="19" cy="21" r="1"/><path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"/></svg></a>
+        </button>
+      </div>
+      <button class="mobile-menu-btn" aria-label="Menu" onclick="toggleMenu()">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+      </button>
+    </nav>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="about.html" class="nav-link">About Us</a>
+	  <a href="products.html" class="nav-link">Product</a>
+    </div>
+  </header>
+
+
+
+    <main>
+    <!-- HERO SECTION -->
+<section class="relative grid lg:grid-cols-2 gap-10 px-6 lg:px-16 py-16 items-center bg-gradient-to-br from-slate-50 to-white">
+
+  <!-- IMAGE -->
+  <div class="relative group overflow-hidden rounded-3xl shadow-xl">
+    <img src="assets/images/childbubblespicture.png" 
+         class="w-full h-full object-cover transform group-hover:scale-105 transition duration-700" 
+         alt="Product line" />
+    <div class="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
+  </div>
+
+  <!-- CONTENT -->
+  <div class="space-y-6">
+    <p class="gradient-text font-semibold tracking-wide uppercase text-sm">Products</p>
+
+    <h1 class="text-3xl lg:text-5xl font-bold leading-tight text-gray-900">
+      Precision formulations designed for
+      <span class="gradient-text">modern therapeutic needs</span>
+    </h1>
+
+    <p class="text-gray-600 text-lg leading-relaxed">
+      Explore our compliance-ready portfolio covering anti-infectives,
+      gastrointestinal care, pediatrics, and wellness solutions.
+    </p>
+
+    <!-- BUTTONS -->
+    <div class="flex flex-wrap gap-4 pt-2">
+      <a href="contact.html" 
+         class="px-6 py-3 rounded-xl gradient-bg text-white font-medium shadow-md hover:shadow-lg hover:scale-105 transition">
+         Request Catalog
+      </a>
+
+      <a href="services.html" 
+         class="px-6 py-3 rounded-xl border border-gray-300 text-gray-700 hover:bg-gray-100 transition">
+         View Services
+      </a>
+    </div>
+
+    <!-- STATS -->
+    <div class="grid grid-cols-3 gap-6 pt-6">
+      <div class="bg-white rounded-xl shadow p-4 text-center">
+        <p class="text-2xl font-bold gradient-text">25+</p>
+        <p class="text-gray-500 text-sm">Products</p>
+      </div>
+      <div class="bg-white rounded-xl shadow p-4 text-center">
+        <p class="text-2xl font-bold gradient-text">4</p>
+        <p class="text-gray-500 text-sm">Continents</p>
+      </div>
+      <div class="bg-white rounded-xl shadow p-4 text-center">
+        <p class="text-2xl font-bold gradient-text">99%</p>
+        <p class="text-gray-500 text-sm">Quality</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+<!-- PRODUCT GRID -->
+  <!-- SECTION -->
+  <section class="px-4 sm:px-6 lg:px-16 py-12 lg:py-16">
+
+    <div class="max-w-7xl mx-auto">
+
+      <!-- HEADING -->
+      <div class="text-center mb-10">
+        <h2 class="text-3xl lg:text-4xl font-bold text-gray-900">
+          Our <span class="gradient-text">Products</span>
+        </h2>
+        <p class="text-gray-500 mt-2">
+          Explore our pharmaceutical range designed for modern healthcare
+        </p>
+      </div>
+
+      <!-- GRID -->
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+
+        <!-- CARD 1 -->
+        <div class="bg-white rounded-2xl shadow-sm hover:shadow-xl hover:-translate-y-1 transition overflow-hidden group">
+          <div class="overflow-hidden">
+            <img src="assets/images/Cilnex%2010%20box"
+              class="w-full h-56 sm:h-60 object-contain p-4 group-hover:scale-105 transition duration-500"
+              alt="Cilnex 10">
+          </div>
+          <div class="p-5 space-y-3">
+            <h3 class="text-lg font-semibold text-gray-900">Cilnex 10</h3>
+            <p class="text-gray-600 text-sm leading-relaxed">
+              Stable-release antibiotic with advanced formulation.
+            </p>
+            <a href="#" class="inline-flex items-center gap-2 text-blue-600 font-medium text-sm hover:gap-3 transition-all">
+              Shop Now <span>→</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- CARD 2 -->
+        <div class="bg-white rounded-2xl shadow-sm hover:shadow-xl hover:-translate-y-1 transition overflow-hidden group">
+          <div class="overflow-hidden">
+            <img src="assets/images/Cilnex%20T%20box"
+              class="w-full h-56 sm:h-60 object-contain p-4 group-hover:scale-105 transition duration-500"
+              alt="Cilnex T">
+          </div>
+          <div class="p-5 space-y-3">
+            <h3 class="text-lg font-semibold text-gray-900">Cilnex T</h3>
+            <p class="text-gray-600 text-sm leading-relaxed">
+              Targeted TB solution for easy administration.
+            </p>
+            <a href="#" class="inline-flex items-center gap-2 text-blue-600 font-medium text-sm hover:gap-3 transition-all">
+              Shop Now <span>→</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- CARD 3 -->
+        <div class="bg-white rounded-2xl shadow-sm hover:shadow-xl hover:-translate-y-1 transition overflow-hidden group">
+          <div class="overflow-hidden">
+            <img src="assets/images/Ladiges%20Fe%20box"
+              class="w-full h-56 sm:h-60 object-contain p-4 group-hover:scale-105 transition duration-500"
+              alt="Ladiges Fe">
+          </div>
+          <div class="p-5 space-y-3">
+            <h3 class="text-lg font-semibold text-gray-900">Ladiges Fe</h3>
+            <p class="text-gray-600 text-sm leading-relaxed">
+              Iron supplement with improved taste profile.
+            </p>
+            <a href="#" class="inline-flex items-center gap-2 text-blue-600 font-medium text-sm hover:gap-3 transition-all">
+              Shop Now <span>→</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- CARD 4 -->
+        <div class="bg-white rounded-2xl shadow-sm hover:shadow-xl hover:-translate-y-1 transition overflow-hidden group">
+          <div class="overflow-hidden">
+            <img src="assets/images/Ladiges%20Forte%20box"
+              class="w-full h-56 sm:h-60 object-contain p-4 group-hover:scale-105 transition duration-500"
+              alt="Ladiges Forte">
+          </div>
+          <div class="p-5 space-y-3">
+            <h3 class="text-lg font-semibold text-gray-900">Ladiges Forte</h3>
+            <p class="text-gray-600 text-sm leading-relaxed">
+              Liposomal multivitamin for better absorption.
+            </p>
+            <a href="#" class="inline-flex items-center gap-2 text-blue-600 font-medium text-sm hover:gap-3 transition-all">
+              Shop Now <span>→</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- CARD 5 -->
+        <div class="bg-white rounded-2xl shadow-sm hover:shadow-xl hover:-translate-y-1 transition overflow-hidden group">
+          <div class="overflow-hidden">
+            <img src="assets/images/Esokick%20D%20box"
+              class="w-full h-56 sm:h-60 object-contain p-4 group-hover:scale-105 transition duration-500"
+              alt="Esokick D">
+          </div>
+          <div class="p-5 space-y-3">
+            <h3 class="text-lg font-semibold text-gray-900">Esokick D</h3>
+            <p class="text-gray-600 text-sm leading-relaxed">
+              Fast-acting anti-inflammatory formula.
+            </p>
+            <a href="#" class="inline-flex items-center gap-2 text-blue-600 font-medium text-sm hover:gap-3 transition-all">
+              Shop Now <span>→</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- CARD 6 -->
+        <div class="bg-white rounded-2xl shadow-sm hover:shadow-xl hover:-translate-y-1 transition overflow-hidden group">
+          <div class="overflow-hidden">
+            <img src="assets/images/Esokick%20L%20box"
+              class="w-full h-56 sm:h-60 object-contain p-4 group-hover:scale-105 transition duration-500"
+              alt="Esokick L">
+          </div>
+          <div class="p-5 space-y-3">
+            <h3 class="text-lg font-semibold text-gray-900">Esokick L</h3>
+            <p class="text-gray-600 text-sm leading-relaxed">
+              Long-acting support for chronic care.
+            </p>
+            <a href="#" class="inline-flex items-center gap-2 text-blue-600 font-medium text-sm hover:gap-3 transition-all">
+              Shop Now <span>→</span>
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+
+
+<!-- CTA -->
+<section class="px-6 lg:px-16 py-16 gradient-bg text-white">
+
+  <div class="max-w-3xl mx-auto text-center space-y-6">
+    <p class="uppercase text-sm tracking-wide opacity-80">Need a sample?</p>
+
+    <h2 class="text-3xl lg:text-4xl font-bold">
+      Backed by clinical validation & global supply chains
+    </h2>
+
+    <div class="flex justify-center gap-4 flex-wrap">
+      <a href="contact.html" class="px-6 py-3 bg-white gradient-bg rounded-xl font-medium hover:scale-105 transition">
+        Request Sample
+      </a>
+
+      <a href="services.html" class="px-6 py-3 border border-white rounded-xl hover:bg-white hover:text-blue-900 transition">
+        Partner With Us
+      </a>
+    </div>
+  </div>
+
+</section>
+    </main>
+
+<!-- FOOTER -->
+<footer class="bg-gray-900 text-gray-300 pt-12 sm:pt-14 pb-8">
+
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-16">
+
+    <!-- GRID -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-12">
+
+      <!-- BRAND -->
+      <div>
+        <img src="assets/images/Ladiguelogo.png" 
+             class="h-16 sm:h-20 mb-4 rounded-lg" 
+             alt="La Digue Logo">
+
+        <p class="text-sm sm:text-base leading-relaxed text-gray-400 max-w-sm">
+          La Digue is committed to delivering scientifically formulated
+          supplements designed for modern healthcare and wellness needs.
+        </p>
+      </div>
+
+      <!-- COMPANY -->
+      <div>
+        <h4 class="font-semibold mb-4 text-white text-base sm:text-lg">
+          Company
+        </h4>
+
+        <ul class="space-y-2 text-sm sm:text-base">
+          <li>
+            <a href="about.html" class="hover:text-white transition">
+              About Us
+            </a>
+          </li>
+          <li>
+            <a href="services.html" class="hover:text-white transition">
+              Our Services
+            </a>
+          </li>
+          <li>
+            <a href="products.html" class="hover:text-white transition">
+              Products
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- CONTACT -->
+      <div>
+        <h4 class="font-semibold mb-4 text-white text-base sm:text-lg">
+          Contact
+        </h4>
+
+        <ul class="space-y-3 text-sm sm:text-base text-gray-400 leading-relaxed">
+
+          <li class="font-medium text-gray-300">
+            La Digue Formulations
+          </li>
+
+          <li>
+            <span class="text-gray-500">Email:</span> 
+            <a href="mailto:info@ladigue.in" class="hover:text-white transition">
+              info@ladigue.in
+            </a>
+          </li>
+
+          <li class="break-words">
+            33, 1st Floor, 1st Main, Ganga Nagar, Gramatana, HMT Layout, 
+            CBI Main Rd, Bengaluru, Karnataka 560032
+          </li>
+
+        </ul>
+      </div>
+
+    </div>
+
+    <!-- DIVIDER -->
+    <div class="border-t border-gray-700 mt-10 pt-6 text-center text-xs sm:text-sm text-gray-500">
+      © 2026 La Digue Lifesciences. All rights reserved.
+    </div>
+
+  </div>
+
+</footer>
+		<script src="assets/js/script.js"></script>
+<script>
+  function toggleMenu() {
+    const menu = document.getElementById("mobileMenu");
+    menu.classList.toggle("active");
+  }
+</script>
+  </body>
+</html>
